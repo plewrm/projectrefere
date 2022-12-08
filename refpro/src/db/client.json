@@ -1,0 +1,69 @@
+{
+  "client_data": [
+    {
+      "client_name": "IBM",
+      "client_code": "87263",
+      "id": 1
+    },
+    {
+      "client_name": "Infosys",
+      "client_code": "#7239",
+      "id": 2
+    },
+    {
+      "client_name": "Rhona Molina",
+      "client_code": "83263",
+      "id": 23
+    },
+    {
+      "client_name": "Kaitlin Norman",
+      "client_code": "37372",
+      "id": 24
+    },
+    {
+      "client_name": "Thomas Edison",
+      "client_code": "1991010",
+      "id": 26
+    },
+    {
+      "client_name": "Olga Prince",
+      "client_code": "74646",
+      "id": 27
+    },
+    {
+      "client_name": "Sylvia Burton",
+      "client_code": "6453",
+      "id": 28
+    },
+    {
+      "client_name": "Xyla Horn",
+      "client_code": "8753",
+      "id": 29
+    },
+    {
+      "client_name": "Vanna Roach",
+      "client_code": "37833",
+      "id": 30
+    },
+    {
+      "client_name": "Sade Mann",
+      "client_code": "63723",
+      "id": 31
+    },
+    {
+      "client_name": "Uta Vance",
+      "client_code": "75768",
+      "id": 32
+    },
+    {
+      "client_name": "George Crosby",
+      "client_code": "191010",
+      "id": 33
+    },
+    {
+      "client_name": "Stephen Benton",
+      "client_code": "191010",
+      "id": 34
+    }
+  ]
+}

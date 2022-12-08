@@ -1,0 +1,190 @@
+// .new {
+//     width: 100%;
+//     display: flex;
+// }
+// .new > .newContainer{
+//     flex:6;
+// }
+// .new > .newContainer > .top {
+//     /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+//     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+//     padding: 10px;
+//     /* margin:20px; */
+//     display: flex;
+//     /* justify-content: start; */
+//     border-bottom: 0.5px solid ligtgray;
+// }
+// .form-control {
+//     display: block;
+//     width: 100%;
+//     height: 34px;
+//     padding: 6px 12px;
+//     font-size: 14px;
+//     line-height: 1.42857143;
+//     color: #555;
+//     background-color: #fff;
+//     background-image: none;
+//     border: 1px solid #ccc;
+//     border-radius: 4px;
+//     -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+//     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+//     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+//     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+//     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+// }
+// .new > .newContainer >.bottom {
+//     /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+//     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+//     padding: 20px;
+//     /* margin:20px; */
+//     display: flex;
+// }
+// /* .new > .newContainer >.bottom > .left{
+//     flex: 1;
+// }
+// .new > .newContainer >.bottom > .right{
+//     flex: 2;
+// } */
+// .bottom {
+//     display: flex;
+//     flex-direction: vertical;
+// }
+// .bottom > h1 {
+//     color:lightgray;
+//     font-size: 20px;
+// }
+// .file{
+//     display: flex;
+//     font-size: 16px;
+//     font-weight: 500;
+// }
+// .form{
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap:20px;
+// }
+// .form > .formInput{
+//     width: 25%;
+// }
+// .form-group{
+//     width: 25%;
+// }
+// .form > .formInput > input {
+//     width: 100%;
+//     padding: 5px;
+//     border: none;
+//     border-bottom: 1px solid gray;
+
+// }
+// .form > .formInput > label {
+//     display: flex;
+//     align-items: center;
+//     gap: 10px;
+
+// }
+// .form > .formInput > label > .icon {
+//     cursor: pointer;
+
+// }
+// .form > button{
+//     width: 150px;
+//     padding: 10px;
+//     border: none;
+//     background-color: teal;
+//     color: white;
+//     font-weight: bold;
+//     cursor: pointer;
+//     margin-top: 10px;
+// }
+// .form > .formInput > select {
+//     width: 100%;
+//     padding: 5px;
+//     border: none;
+//     border-bottom: 1px solid gray;
+//     background-color: white;
+// }
+// .submitbtn{
+//   background-color: #4CAF50; /* Green */
+//   border: none;
+//   color: white;
+//   margin-left: 20px;
+//   padding: 10px 30px;
+//   text-align: center;
+//   text-decoration: none;
+//   display: inline-block;
+//   font-size: 16px;
+// }
+// .experience-form {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap:20px;
+//     padding-left: 20px;
+// }
+// .experience-form > .formInput{
+//     width: 25%;
+// }
+// .experience-form > .formInput > input {
+//     width: 100%;
+//     padding: 5px;
+//     border: none;
+//     border-bottom: 1px solid gray;
+
+// }
+// .experience-form > .formInput > label {
+//     display: flex;
+//     align-items: center;
+//     gap: 10px;
+
+// }
+// .experience-form > .formInput > label > .icon {
+//     cursor: pointer;
+
+// }
+// .experience-form > button{
+//     width: 150px;
+//     padding: 10px;
+//     border: none;
+//     background-color: teal;
+//     color: white;
+//     font-weight: bold;
+//     cursor: pointer;
+//     margin-top: 10px;
+// }
+// .experience-form > .formInput > select {
+//     width: 100%;
+//     padding: 5px;
+//     border: none;
+//     border-bottom: 1px solid gray;
+//     background-color: white;
+// }
+
+// .btn{
+//     // margin: 10px;
+//     margin-bottom: 10px;
+//     padding: 5px 15px;
+//     cursor: pointer;
+//     display: inline-block;
+//     box-sizing: border-box;
+//     -webkit-tap-highlight-color: transparent;
+//     background-color: transparent;
+//     background-color: red($color: #000000);
+//     outline: 0;
+//     text-decoration: none;
+//     border: 1px solid rgba(25, 118, 210, 0.5);
+//     color: #1976d2;
+//     font-family: "Roboto","Helvetica","Arial",sans-serif;
+//     font-weight: 500;
+//     font-size: 0.875rem;
+//     line-height: 1.75;
+//     letter-spacing: 0.02857em;
+//     text-transform: uppercase;
+//     min-width: 64px;
+//     border-radius: 4px;
+// }
+
+// .bar > .barTitle{
+//     font-weight: 500;
+//     color: black;
+//     margin-top: 10px;
+//     /* margin-bottom: 15px; */
+// }

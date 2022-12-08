@@ -1,0 +1,300 @@
+.new {
+    width: 100%;
+    display: flex;
+}
+.new > .newContainer{
+    flex:6;
+}
+.new > .newContainer > .top {
+    /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+    padding: 10px;
+    /* margin:20px; */
+    /* display: flex; */
+    /* justify-content: start; */
+    border-bottom: 0.5px solid ligtgray;
+}
+    form {
+    display: inline-block;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    margin: 2rem 0 1rem 0
+}
+
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.428572em + 0.857143rem + 2px);
+    padding: 0.428571rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.428572;
+    color: #575757;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d4dae3;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out .15s;
+} */
+
+.label {
+    font-weight: 600;
+    text-align: left;
+}
+
+.form-row {
+    display: flex;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-top:10px
+}
+.campaig-errorMsg{
+    color: red;
+}
+/* .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;    
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+} */
+.new > .newContainer >.bottom {
+    /* -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); */
+    padding: 20px;
+    /* margin:20px; */
+    display: flex;
+}
+/* .new > .newContainer >.bottom > .left{
+    flex: 1;
+}
+.new > .newContainer >.bottom > .right{
+    flex: 2;
+} */
+.bottom {
+    display: flex;
+    flex-direction: vertical;
+}
+.bottom > h1 {
+    color:lightgray;
+    font-size: 20px;
+}
+.file{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .form{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+} */
+/* .form > .formInput{
+    width: 25%;
+} */
+/* .form-group{
+    width: 25%;
+} */
+/* .form > .formInput > input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+} */
+/* .form > .formInput > label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+} */
+/* .form > .formInput > label > .icon {
+    cursor: pointer;
+
+} */
+/* .form > button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+} */
+/* .form > .formInput > select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white;
+} */
+/* .submitbtn{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  margin-left: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} */
+/* here Start View Candidate in order to table formate */ 
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  /* th, td {
+    text-align: left;
+    padding: 16px;
+  } */
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+/* here End View Candidate in order to table formate */ 
+
+.experience-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-left: 20px;
+}
+.experience-form > .formInput{
+    width: 25%;
+}
+.experience-form > .formInput > input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+.experience-form > .formInput > label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.experience-form > .formInput > label > .icon {
+    cursor: pointer;
+
+}
+.experience-form > button{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.experience-form > .formInput > select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+/* .btn{
+    // margin: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    background-color: red($color: #000000);
+    outline: 0;
+    text-decoration: none;
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: #1976d2;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    border-radius: 4px;
+} */
+
+.bar > .barTitle{
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    /* margin-bottom: 15px; */
+}
+
+/* After css  Start */
+.tex-area{
+    height: auto;
+    width: 100%;
+    line-height: 1.428572;
+}
+
+.emrcntlab{
+    margin-top: 22px;
+}
+.ec-na-Input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    /* border-bottom: 1px solid gray; */
+    margin-left: 10px;
+    width: 25%;
+}
+.cnt-name{
+    margin-left: 115px;
+}
+.fr-dbl-cntrl{
+    margin-left: 115px;
+}
+
+/* After css End */

@@ -1,0 +1,148 @@
+.candidateList {
+    display: flex;
+    width: 100%;
+}
+
+.candidateList>.candidateListContainer {
+    flex: 6;
+}
+
+.tableHead {
+    font-size: 1px;
+}
+
+.tableContainer {
+    max-width: 1120px;
+    max-height: 85vh;
+
+}
+
+.table {
+    border-spacing: 0px;
+}
+
+/* .tableCell{
+    font-size: 104px !important;
+    font-weight: 600 !important;
+} */
+#collapse1 {
+    overflow-y: scroll;
+    height: 400px;
+}
+
+
+.bar {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px 20px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    /* margin:10px; */
+}
+
+.bar>.barTitle {
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    /* margin-bottom: 15px; */
+}
+
+.bar>.barAddButton {
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: darkblue;
+    /* border: 1px dotted rgba(0,0139, 0.59); */
+    cursor: pointer;
+    background-color: rgb(234, 232, 232);
+
+}
+
+.DelButton {
+    cursor: pointer;
+}
+
+.tableContainer .tableHead {
+    font-weight: 550 !important;
+}
+
+.overflow-candidateFirstName {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 100px !important;
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+
+}
+
+.overflow-candidateLastName {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    width: 100px !important;
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+}
+
+.overflow-candidateEmail {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    width: 150px !important;
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+}
+
+.overflow-candidateRemarks {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    max-width: 200px !important;
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+}
+
+.overflow-candidateLinkedin {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    /* max-width: 150px !important; */
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+}
+
+.overflow-candidateCV {
+    overflow-x: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    /* max-width: 150px !important; */
+    /* display: block !important; */
+    /* overflow: "hidden"; */
+}
+
+.tb_al {
+    display: flex;
+    justify-content: center;
+}
+
+.headerTable {
+    margin-top: 2%;
+}
+
+.table-container-home {
+    font-size: 14px;
+    max-height: 520px;
+    overflow-y: scroll;
+}
+
+.table-container-home thead {
+    position: sticky;
+    top: 1px;
+    background-color: white;
+}
+
+.tabledata-home {
+    width: 100%;
+    border-radius: 10px;
+}
+

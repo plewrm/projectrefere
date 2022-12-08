@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+}
+.title {
+    color: white;
+}
+.homeContainer {
+    flex:6;
+    /* background-color: rebeccapurple; */
+}
+.listContainer{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding:20px;
+    margin:10px;
+}
+.listContainer .listTitle{
+    font-weight: 500;
+    color:grey;
+    margin-bottom: 15px;
+}
+
+.tCandidates{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding:100px;
+    margin:50px;
+    text-align: center;
+    color: grey;
+}
+.tJobs{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding:100px;
+    margin:50px;
+    text-align: center;
+    color: grey;
+}
+.tShow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.heading {
+    text-align: center;
+    text-justify: inter-word;
+    padding: 20px;
+}

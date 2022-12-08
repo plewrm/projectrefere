@@ -1,0 +1,29 @@
+.btn{
+    // margin: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: blue;
+    outline: 0;
+    text-decoration: none;
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    border-radius: 4px;
+}
+
+.tablee{
+    width: 100%;
+    border: 1px solid #dee2e6;
+    
+
+}
